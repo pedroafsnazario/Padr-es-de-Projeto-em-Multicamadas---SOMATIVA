@@ -4,11 +4,11 @@
 - Curso: Sistemas de Informação
 - Faculdade: Pontifícia Universidade Católica (PUC)
 
-## Indíce
+## Indíce📖
 * [Somativa](#somativa)
 * [Projeto Pokedex](#projeto-pokedex)
 
-## Somativa
+## Somativa📰
 
 ### 1. Escolha um projeto antigo que você tenha desenvolvido.👨‍💻
  #### Projeto escolhido -> Pokedex feita em Kotlin!💠
@@ -16,7 +16,6 @@
  * Pode ser em qualquer linguagem✅
 
  
-
 ### 2. Identifique pelo menos 5 pontos de melhoria✔
 
 * Explique por que você considera que aquele ponto precisa ser melhorado
@@ -38,4 +37,9 @@
 
 ## Projeto Pokedex👾
 * Foi um projeto que realizei semestre passado na matéria de Android com o professor Mark. O objetivo era realizar um projeto completo em android (no caso, um aplicativo) para o trabalho final da matéria, como o tema para o aplicativo era livre, resolvi criar um aplicativo que funcionasse como uma Pokedex.
-* No entanto
+* No entanto o projeto final apesar de ter uma "Estrutura" boa (Pois utilizei alguns tutoriais para criar a pokedex). Seu acabamento ficou péssimo, a visualização se tornou muito simplória e funcionalidades mínimas. Em resumo, eu poderia ter feito o projeto mais completo, mas no fim ficou horrendo e como dizem, "foi feito de qualquer jeito".
+* Não tinha muita experiencia para programar em Kotlin e muito menos programar um aplicativo completo integrado com API`S, por isso o projeto ficou do jeito que está😅
+* Por meio desta Somativa, irei demonstrar como o Projeto poderia ter ficado melhor se eu tivesse produzido/abordado ele com Padròes de projeto distintos e citar melhorias que poderiam ser feitas.
+  
+### Pontos de Melhoria
+*
