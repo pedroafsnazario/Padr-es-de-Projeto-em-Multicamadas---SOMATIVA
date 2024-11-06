@@ -42,6 +42,7 @@
 * Não tinha muita experiencia para programar em Kotlin e muito menos programar um aplicativo completo integrado com API`S, por isso o projeto ficou do jeito que está😅
 * Por meio desta Somativa, irei demonstrar como o Projeto poderia ter ficado melhor se eu tivesse produzido/abordado ele com Padròes de projeto distintos e citar melhorias que poderiam ser feitas.
 * As melhorias que demonstrarei são bases que usaria pro código, tendo em mente que, ao invez de criar 'Pokemon Lists' eu iria implementar uma API de pokemon que continha uma lista com todos os Pokemons da região de Kanto da série.
+* A maioria dos pontos de melhoria que pensei em implementar são em arquivos diferentes do meu projeto portanto os 'Protótipos' são vários pois seria a versão final de cada arquivo/código que criei separadamente dentro desse projeto de Pokedex
   
 ### Pontos de Melhoria
 
