@@ -55,13 +55,13 @@
   // Implementação da API por meio do Strategy
     fun filter(pokemonList: List<Pokemon>): List<Pokemon>
   }
-
+  //Filtro de Pokemons
   class TypeFilter(private val type: String) : FilterStrategy {
     override fun filter(pokemonList: List<Pokemon>): List<Pokemon> {
         return pokemonList.filter { it.type == type }
     }
   }
-
+ 
   class NameFilter(private val name: String) : FilterStrategy {
     override fun filter(pokemonList: List<Pokemon>): List<Pokemon> {
         return pokemonList.filter { it.name.contains(name, ignoreCase = true) }
