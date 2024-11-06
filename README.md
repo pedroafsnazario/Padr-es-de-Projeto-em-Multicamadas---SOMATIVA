@@ -7,6 +7,7 @@
 ## Indíce📖
 * [Somativa](#somativa)
 * [Projeto Pokedex](#projeto-pokedex)
+* [Conclusão](#conclusão)
 
 ## Somativa📰
 
@@ -40,6 +41,7 @@
 * No entanto o projeto final apesar de ter uma "Estrutura" boa (Pois utilizei alguns tutoriais para criar a pokedex). Seu acabamento ficou péssimo, a visualização se tornou muito simplória e funcionalidades mínimas. Em resumo, eu poderia ter feito o projeto mais completo, mas no fim ficou horrendo e como dizem, "foi feito de qualquer jeito".
 * Não tinha muita experiencia para programar em Kotlin e muito menos programar um aplicativo completo integrado com API`S, por isso o projeto ficou do jeito que está😅
 * Por meio desta Somativa, irei demonstrar como o Projeto poderia ter ficado melhor se eu tivesse produzido/abordado ele com Padròes de projeto distintos e citar melhorias que poderiam ser feitas.
+* As melhorias que demonstrarei são bases que usaria pro código, tendo em mente que, ao invez de criar 'Pokemon Lists' eu iria implementar uma API de pokemon que continha uma lista com todos os Pokemons da região de Kanto da série.
   
 ### Pontos de Melhoria
 
@@ -50,6 +52,7 @@
   ```Kotlin
   // Pesquisa e Filtro de Pokemons
           interface FilterStrategy {
+  // Implementação da API por meio do Strategy
     fun filter(pokemonList: List<Pokemon>): List<Pokemon>
   }
 
@@ -203,3 +206,15 @@ class PokedexControllerWithSort(
 }
 
 ```
+
+## Conclusão🔆
+
+A aplicação desses padrões (MVC, Factory, Strategy e Observer) não só melhoram a qualidade dos códigos, mas também tornariam o projeto da Pokédex mais modular, organizado e pronto para futuras expansões. Ao incorporar essas melhorias, meu projeto poderia alcançar:
+
+* Uma organização sólida que separaria responsabilidades e facilitaria a manutenção.
+* Teria facilidade para expandir o projeto, assim podendo adicionar novas funcionalidades de forma simples.
+* A experiência de usuário seria amplamente aprimorada, com opções de ordenação e interface visualmente separada da lógica.
+* O design do aplicativo ficaria agradável, intuitivo e atrativo para fãs da franquia e até para pessoas que teriam interesse de conhecer os Pokemons.
+  
+Essas mudanças, além de proporcionarem uma base sólida para possíveis novos desenvolvimentos, fariam com que meu projeto seguisse as boas práticas de desenvolvimento e manteria se escalável e fácil de entender. A implementação desses padrões tornaria minha Pokédex mais robusta e versátil, demonstrando como pequenas melhorias estruturais podem transformar um projeto em algo mais profissional e eficiente.
+
